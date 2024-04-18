@@ -40,7 +40,7 @@ The following resources are listed in **(roughly) chronological order of publica
   - Augmenting with **GPT-3.5-Turbo**.
 - [*AugGSM8k*](http://arxiv.org/abs/2310.05506) : Common data augmentation on **GSM8k** **helps little** in generalization to **MATH**.
 - [*MathScale*](http://arxiv.org/abs/2403.02884): **Scaling** synthetic data to **~2M samples** using **GPT-3.5-Turbo** with **knowledge graph**.
-- [*KMPMath*](https://arxiv.org/abs/2403.02333): **Scaling** synthetic data to **1.576M samples** using **GPT-4-Turbo** with **knowledge graph**.
+- [*KPMath*](https://arxiv.org/abs/2403.02333): **Scaling** synthetic data to **1.576M samples** using **GPT-4-Turbo** with **knowledge graph**.
 - [*XWin-Math*](https://arxiv.org/abs/2403.04706): **Simple scaling** synthetic data to **480k MATH + 960k GSM8k samples** using **GPT-4-Turbo** with **knowledge graph**.
 
 ### Code integration

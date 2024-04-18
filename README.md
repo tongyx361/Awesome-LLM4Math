@@ -51,7 +51,7 @@ The following resources are listed in **(roughly) chronological order of publica
 
 ## RL: Methods / Models / Datasets
 
-- [*Math-Shepherd*](http://arxiv.org/abs/2312.08935): consturcting **step-correctness labels** based on an **MCTS**-like method.
+- [*Math-Shepherd*](http://arxiv.org/abs/2312.08935): Consturcting **step-correctness labels** based on an **MCTS**-like method.
 
 ## Evaluation: Benchmarks
 

@@ -42,6 +42,8 @@ The following resources are listed in **(roughly) chronological order of publica
 - [*MathScale*](http://arxiv.org/abs/2403.02884): **Scaling** synthetic data to **~2M samples** using **GPT-3.5-Turbo** with **knowledge graph**.
 - [*KPMath*](https://arxiv.org/abs/2403.02333): **Scaling** synthetic data to **1.576M samples** using **GPT-4-Turbo** with **knowledge graph**.
 - [*XWin-Math*](https://arxiv.org/abs/2403.04706): **Simple scaling** synthetic data to **480k MATH + 960k GSM8k samples** using **GPT-4-Turbo** with **knowledge graph**.
+- [*Achieving >97% on GSM8K: Deeply Understanding the Problems Makes LLMs Better Reasoners*](https://arxiv.org/abs/2404.14963): **Deeply Understanding the Problems Makes LLMs Better Reasoners** using **three-stage DUP prompting approach** to achieve **>97% accuracy on GSM8K**.
+- [*AlphaMath Almost Zero: process Supervision without process*](https://arxiv.org/abs/2405.03553): **Eliminating manual annotation** in mathematical reasoning by **leveraging Monte Carlo Tree Search (MCTS)** to generate **process supervision automatically**.
 
 ### Code integration
 

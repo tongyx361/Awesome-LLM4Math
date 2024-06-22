@@ -3,7 +3,7 @@
 > Curation of resources for LLM mathematical reasoning.
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/tongyx361/Awesome-LLM4Math)
-[![License: Apache](https://img.shields.io/badge/License-Apache-green.svg)](https://opensource.org/licenses/Apache)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 | [🐱 GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | [🐦 Twitter](https://twitter.com/tongyx361/status/1780980512561185062) |
 

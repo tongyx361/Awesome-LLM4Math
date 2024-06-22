@@ -42,18 +42,22 @@ The following resources are listed in **(roughly) chronological order of publica
 - [*MathScale*](http://arxiv.org/abs/2403.02884): **Scaling** synthetic data to **~2M samples** using **GPT-3.5-Turbo** with **knowledge graph**.
 - [*KPMath*](https://arxiv.org/abs/2403.02333): **Scaling** synthetic data to **1.576M samples** using **GPT-4-Turbo** with **knowledge graph**.
 - [*XWin-Math*](https://arxiv.org/abs/2403.04706): **Simple scaling** synthetic data to **480k MATH + 960k GSM8k samples** using **GPT-4-Turbo** with **knowledge graph**.
-- [*Achieving >97% on GSM8K: Deeply Understanding the Problems Makes LLMs Better Reasoners*](https://arxiv.org/abs/2404.14963): **Deeply Understanding the Problems Makes LLMs Better Reasoners** using **three-stage DUP prompting approach** to achieve **>97% accuracy on GSM8K**.
-- [*AlphaMath Almost Zero: process Supervision without process*](https://arxiv.org/abs/2405.03553): **Eliminating manual annotation** in mathematical reasoning by **leveraging Monte Carlo Tree Search (MCTS)** to generate **process supervision automatically**.
 
 ### Code integration
 
 - [*MAmmoTH*](http://arxiv.org/abs/2309.05653): **SFT on CoT&PoT-mixing data** is effective.
 - [*ToRA*](https://microsoft.github.io/ToRA/) & [*MARIO*](https://github.com/MARIO-Math-Reasoning/MARIO): The fisrt open-sourced model works to verify the effectiveness of **SFT for tool-integrated reasoning**.
 - [*OpenMathInstruct-1*](http://arxiv.org/abs/2402.10176): **Scaling synthetic data to 1.8M** using **Mixtral-8x7B**
+- [*AlphaMath*](https://arxiv.org/abs/2405.03553): Use **MCTS** to synthesize tool-integrated reasoning paths and **step-level reward labels**, then train the model with **a multi-task language model and reward model loss** to get a policy-and-value model.
+  - Compared with *DeepSeekMath-7B-**RL*** **(58.8% pass@1) on *MATH***, *AlphaMath* catches up by merely SFT *DeepSeekMath-7B* with *MARIO* and *AlphaMath* and further improves to **68.6%** with ***Step-level Beam Search (SBS)*** decoding. (Table 4)
 
 ## RL: Methods / Models / Datasets
 
 - [*Math-Shepherd*](http://arxiv.org/abs/2312.08935): Consturcting **step-correctness labels** based on an **MCTS**-like method.
+
+## Prompting & Decoding: Methods
+
+- [*DUP*](https://arxiv.org/abs/2404.14963): Prompting the model with three-stage *Deeply Understand the Problem* prompts, which comprises **1) core question extraction 2) problem-solving information extraction and 3) *CoT* reasoning**, improving more than *Plan-and-Solve* and *Least-to-Most* prompting on simple arithmetic, commonsense and symbolic reasoning tasks.
 
 ## Evaluation: Benchmarks
 
@@ -78,4 +82,3 @@ Here we focus on **several the most important benchmarks**.
 ## Events
 
 - [*AIMO*](https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize): “a new **$10mn** prize fund to spur the **open** development of AI models capable of performing as well as top human participants in the International Mathematical Olympiad (IMO)”.
-

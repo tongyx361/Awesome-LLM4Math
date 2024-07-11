@@ -22,9 +22,9 @@ The following resources are listed in **(roughly) chronological order of publica
 
 📢 If you have any **suggestions**, please don't hesitate to let us know. You can
 
-- directly [E-mail *Yuxuan Tong*](tongyuxuan361@gmail.com),
-- reply to the [X(Twitter) thread](https://twitter.com/tongyx361/status/1780980512561185062),
-- or post an issue in the [GitHub repository](https://github.com/tongyx361/Awesome-LLM4Math).
+- **reply** to the [**X(Twitter)** thread](https://twitter.com/tongyx361/status/1780980512561185062),
+- post an **issue** in the [**GitHub** repository](https://github.com/tongyx361/Awesome-LLM4Math),
+- or [**E-mail** *Yuxuan Tong*](tongyuxuan361@gmail.com),
 
 ## (Training) Datasets
 

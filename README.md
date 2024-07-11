@@ -7,18 +7,24 @@
 
 [🐱 GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | [🐦 Twitter](https://twitter.com/tongyx361/status/1780980512561185062)
 
-Featured by:
+✨ Featured by:
 
 - Probably the **most comprehensive** list of **training prompt&answer datasets** for complex mathematical QA tasks across the web.
 - Lists of the series of work implementing the current **open-source SotA** for mathematical problem-solving tasks.
 
-You can **subscribe to our updates** in the following ways:
+The following resources are listed in **(roughly) chronological order of publication**.
+
+📥 You can **subscribe to our updates** in the following ways:
 
 - **Follow** the [**X (Twitter) account** @tongyx361](https://x.com/tongyx361),
 - **Follow** the [**Zhihu(知乎) account** @天欲雪](https://www.zhihu.com/people/bai-li-tian-he-84),
 - **Watch releases in this GitHub repository**: upper right corner→Watch->Custom->Releases.
 
-The following resources are listed in **(roughly) chronological order of publication**.
+📢 If you have any **suggestions**, please don't hesitate to let us know. You can
+
+- directly [E-mail *Yuxuan Tong*](tongyuxuan361@gmail.com),
+- reply to the [X(Twitter) thread](https://twitter.com/tongyx361/status/1780980512561185062),
+- or post an issue in the [GitHub repository](https://github.com/tongyx361/Awesome-LLM4Math).
 
 ## (Training) Datasets
 
@@ -222,11 +228,3 @@ Here we focus on **several the most important benchmarks**.
 ## Events
 
 - [*AIMO*](https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize): “a new **$10mn** prize fund to spur the **open** development of AI models capable of performing as well as top human participants in the International Mathematical Olympiad (IMO)”.
-
-## Contribution Guidelines
-
-If you have any suggestions, please don't hesitate to let us know. You can
-
-- directly [E-mail *Yuxuan Tong*](tongyuxuan361@gmail.com),
-- reply to the [X(Twitter) thread](https://twitter.com/tongyx361/status/1780980512561185062),
-- or post an issue in the [GitHub repository](https://github.com/tongyx361/Awesome-LLM4Math).

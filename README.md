@@ -5,17 +5,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/tongyx361/Awesome-LLM4Math)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-| [🐱 GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | [🐦 Twitter](https://twitter.com/tongyx361/status/1780980512561185062) |
+[🐱 GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | [🐦 Twitter](https://twitter.com/tongyx361/status/1780980512561185062)
 
 Featured by:
 
-- Probably the **most comprehensive** list of **training prompt&answer datasets** for complex mathematical QA tasks across the web
-- Lists of the series of work implementing the current **open-source SotA** for mathematical problem-solving tasks
+- Probably the **most comprehensive** list of **training prompt&answer datasets** for complex mathematical QA tasks across the web.
+- Lists of the series of work implementing the current **open-source SotA** for mathematical problem-solving tasks.
 
 You can **subscribe to our updates** in the following ways:
 
 - **Follow** the [**X (Twitter) account** @tongyx361](https://x.com/tongyx361),
-- **Follow** the [**Zhihu(知乎)** account @天欲雪](https://www.zhihu.com/people/bai-li-tian-he-84),
+- **Follow** the [**Zhihu(知乎) account** @天欲雪](https://www.zhihu.com/people/bai-li-tian-he-84),
 - **Watch releases in this GitHub repository**: upper right corner→Watch->Custom->Releases.
 
 The following resources are listed in **(roughly) chronological order of publication**.

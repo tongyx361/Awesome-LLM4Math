@@ -1,6 +1,6 @@
 # Awesome LLM4Math
 
-> Curation of resources for **LLM mathematical reasoning**, most of which are **screened** by @tongyx361 to ensure **high quality** and accompanied with **elaborately-written concise descriptions** to help readers get the gists as quickly as possible.
+> Curation of resources for **LLM mathematical reasoning**, most of which are **screened** by @tongyx361 to ensure **high quality** and accompanied with **elaborately-written concise descriptions** to help readers get the gist as quickly as possible.
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/tongyx361/Awesome-LLM4Math)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)

@@ -7,6 +7,11 @@
 
 | [🐱 GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | [🐦 Twitter](https://twitter.com/tongyx361/status/1780980512561185062) |
 
+Featured by:
+
+- Probably the **most comprehensive** list of **training prompt&answer datasets** for complex mathematical QA tasks across the web
+- Lists of the series of work implementing the current **open-source SotA** for mathematical problem-solving tasks
+
 📢 If you have any suggestions, please don't hesitate to let us know. You can
 
 - directly [E-mail *Yuxuan Tong*](tongyuxuan361@gmail.com),

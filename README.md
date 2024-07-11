@@ -22,46 +22,46 @@ The following list mainly focuses (training) datasets for **complex mathematical
 - **[MATH](https://github.com/hendrycks/math)/Train**
   - **# of Queries**: 7,500
   - **Query Description**:
-    - “The MATH dataset consists of problems from **mathematics competitions** including the **AMC 10, AMC 12, AIME**, and more.”
-    - “To provide a rough but informative comparison to human-level performance, we randomly sampled 20 problems from the MATH test set and gave them to humans. We artificially require that the participants have 1 hour to work on the problems and must perform calculations by hand. All participants are university students.
+    - "The MATH dataset consists of problems from **mathematics competitions** including the **AMC 10, AMC 12, AIME**, and more."
+    - "To provide a rough but informative comparison to human-level performance, we randomly sampled 20 problems from the MATH test set and gave them to humans. We artificially require that the participants have 1 hour to work on the problems and must perform calculations by hand. All participants are university students.
       - One participant who **does not like mathematics** got **8/20 = 40%** correct.
       - A participant **ambivalent toward mathematics** got **13/20**.
       - Two participants who **like mathematics** got **14/20 and 15/20**.
       - A participant who **got a perfect score on the AMC 10 exam and attended USAMO several times** got **18/20**.
-      - A **three-time IMO gold medalist** got **18/20 = 90%**, though missed questions were exclusively due to small errors of arithmetic.”
-    - “Problems span various subjects and difficulties. The seven subjects are **Prealgebra, Algebra, Number Theory, Counting and Probability, Geometry, Intermediate Algebra, and Precalculus**.”
-    - “While **subjects like Prealgebra are generally easier than Precalculus**, within a subject problems can take on different difficulty levels. We encode a problem’s difficulty level from ‘1’ to ‘5,’ following AoPS. A subject’s easiest problems for humans are assigned a difficulty level of ‘1,’ and a subject’s hardest problems are assigned a difficulty level of ‘5.’ **Concretely, the first few problems of an AMC 8 exam are often level 1, while AIME problems are level 5.**”
+      - A **three-time IMO gold medalist** got **18/20 = 90%**, though missed questions were exclusively due to small errors of arithmetic."
+    - "Problems span various subjects and difficulties. The seven subjects are **Prealgebra, Algebra, Number Theory, Counting and Probability, Geometry, Intermediate Algebra, and Precalculus**."
+    - "While **subjects like Prealgebra are generally easier than Precalculus**, within a subject problems can take on different difficulty levels. We encode a problem’s difficulty level from ‘1’ to ‘5,’ following AoPS. A subject’s easiest problems for humans are assigned a difficulty level of ‘1,’ and a subject’s hardest problems are assigned a difficulty level of ‘5.’ **Concretely, the first few problems of an AMC 8 exam are often level 1, while AIME problems are level 5.**"
   - **Answer Description**:
     - Solutions and final answers are by **experts from the AOPS community**.
-    - “Problems and solutions are **consistently formatted** using **LaTeX** and the **Asymptote** vector graphics language.”
+    - "Problems and solutions are **consistently formatted** using **LaTeX** and the **Asymptote** vector graphics language."
 - **[AMPS](https://github.com/hendrycks/math)/Khan-Academy**
   - **# of Queries**: 103,059
   - **Query Description**:
-    - “The Khan Academy subset of AMPS has **693 exercise types** with over 100,000 problems and full solutions.
+    - "The Khan Academy subset of AMPS has **693 exercise types** with over 100,000 problems and full solutions.
     - Problem types range **from elementary mathematics (e.g. addition) to multivariable calculus (e.g. Stokes’ theorem)**, and are used to teach actual **K-12** students.
-    - The exercises can be regenerated using **code from github.com/Khan/khan-exercises/**.”
+    - The exercises can be regenerated using **code from github.com/Khan/khan-exercises/**."
   - **Answer Description**: Same as query.
 - **[AMPS](https://github.com/hendrycks/math)/Mathematica**
   - **# of Queries**: 4,830,500
   - **Query Description**:
-    - “With **Mathematica**, we designed **100 scripts** that test distinct mathematics concepts, 37 of which include full step-by-step LaTeX solutions in addition to final answers. We generated **around 50,000 exercises from each of our scripts**, or around 5 million problems in total.”
-    - “Problems include various aspects of **algebra, calculus, counting and statistics, geometry, linear algebra, and number theory**.”
+    - "With **Mathematica**, we designed **100 scripts** that test distinct mathematics concepts, 37 of which include full step-by-step LaTeX solutions in addition to final answers. We generated **around 50,000 exercises from each of our scripts**, or around 5 million problems in total."
+    - "Problems include various aspects of **algebra, calculus, counting and statistics, geometry, linear algebra, and number theory**."
   - **Answer Description**: Same as query.
 - **[GSM8K](https://github.com/openai/grade-school-math)/Train**
   - **# of Queries**: 7,473
   - **Query Description**:
-    - “GSM8K consists of 8.5K high quality **grade school math problems** created by **human problem writers**.”
+    - "GSM8K consists of 8.5K high quality **grade school math problems** created by **human problem writers**."
     - These problems take **between 2 and 8 steps** to solve, and solutions primarily involve performing a sequence of **elementary calculations using basic arithmetic operations (+ − ×÷)** to reach the final answer. A bright **middle school** student should be able to solve every problem.
-    - “We initially collected a starting set of a thousand problems and natural language solutions by hiring freelance contractors on **Upwork (upwork.com)**. We then worked with **Surge AI (surgehq.ai)**, an NLP data labeling platform, to scale up our data collection.”
+    - "We initially collected a starting set of a thousand problems and natural language solutions by hiring freelance contractors on **Upwork (upwork.com)**. We then worked with **Surge AI (surgehq.ai)**, an NLP data labeling platform, to scale up our data collection."
   - **Answer Description**:
     - Written by labelers from **Surge AI (main) and Upwork (auxilliary)**
-    - “After collecting the full dataset, we asked workers to **re-solve all problems**, with no workers re-solving problems they originally wrote. We checked whether their final answers agreed with the original solutions, and any problems that produced disagreements were either repaired or discarded. We then performed **another round of agreement checks on a smaller subset of problems**, finding that 1.7% of problems still produce disagreements among contractors. We estimate this to be the fraction of problems that contain breaking errors or ambiguities. It is possible that a larger percentage of problems contain subtle errors.”
+    - "After collecting the full dataset, we asked workers to **re-solve all problems**, with no workers re-solving problems they originally wrote. We checked whether their final answers agreed with the original solutions, and any problems that produced disagreements were either repaired or discarded. We then performed **another round of agreement checks on a smaller subset of problems**, finding that 1.7% of problems still produce disagreements among contractors. We estimate this to be the fraction of problems that contain breaking errors or ambiguities. It is possible that a larger percentage of problems contain subtle errors."
 - **[TAL-SCQ5K](https://huggingface.co/datasets/math-eval/TAL-SCQ5K)-EN/Train**
   - **# of Queries**: 3,000
   - **Query Description**:
-    - ”TAL-SCQ5K-EN/TAL-SCQ5K-CN are high quality **mathematical competition** datasets in English and Chinese language created by TAL Education Group, each consisting of 5K questions(3K training and 2K testing).
+    - "TAL-SCQ5K-EN/TAL-SCQ5K-CN are high quality **mathematical competition** datasets in English and Chinese language created by TAL Education Group, each consisting of 5K questions(3K training and 2K testing).
     - The questions are in the form of **multiple-choice**
-    - and cover mathematical topics at the **primary,junior high and high school** levels.”
+    - and cover mathematical topics at the **primary,junior high and high school** levels."
   - **Answer Description**: Same as query.
 - **[TAL-SCQ5K](https://huggingface.co/datasets/math-eval/TAL-SCQ5K)-CN/Train**
   - **# of Queries**: 3,000
@@ -70,18 +70,18 @@ The following list mainly focuses (training) datasets for **complex mathematical
 - **[CAMEL-Math](https://huggingface.co/datasets/camel-ai/math)**
   - **# of Queries**: 50,000
   - **Query Description**:
-    - ”Math dataset is composed of 50K problem-solution pairs obtained using **GPT-4**.
-    - The dataset problem-solution pairs generating from **25 math topics, 25 subtopics for each topic and 80 problems for each "topic,subtopic" pairs.**”
+    - "Math dataset is composed of 50K problem-solution pairs obtained using **GPT-4**.
+    - The dataset problem-solution pairs generating from **25 math topics, 25 subtopics for each topic and 80 problems for each "topic,subtopic" pairs.**"
   - **Answer Description**: Same as query.
 - **[MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA)-GSM8K/SV**
   - **# of Queries**: 29,283
   - **Query Description**:
-    - “In **Self-Verification (SV)**, **the question with the answer is first rewritten into a declarative statement**, e.g., “How much did he pay?” (with the answer 110) is rewritten into “He paid $10”. Then, a question for asking the value of x is appended, e.g., “What is the value of unknown variable x?”.”
+    - "In **Self-Verification (SV)**, **the question with the answer is first rewritten into a declarative statement**, e.g., "How much did he pay?" (with the answer 110) is rewritten into "He paid $10". Then, a question for asking the value of $x$ is appended, e.g., "What is the value of unknown variable $x$?"."
   - **Answer Description**: Same as query.
 - **[MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA)-GSM8K/FOBAR**
   - **# of Queries**: 16,503
   - **Query Description**:
-    - ”**FOBAR** proposes to **directly append the answer to the question**, i.e., “If we know the answer to the above question is {a⋆ i } , what is the value of unknown variable x?””
+    - "**FOBAR** proposes to **directly append the answer to the question**, i.e., "If we know the answer to the above question is $a_{i}^*$ , what is the value of unknown variable $x$?""
   - **Answer Description**: Same as query.
 - **[MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA)-MATH/SV**
   - **# of Queries**: 4,596
@@ -94,39 +94,39 @@ The following list mainly focuses (training) datasets for **complex mathematical
 - **[MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct)/College-Math**
   - **# of Queries**: 1,840
   - **Query Description**:
-    - “We use **GPT-4** to …
+    - "We use **GPT-4** to …
     - create question-CoT pairs through **Self-Instruct** (Wang et al., 2023h),
-    - utilizing **a few seed exemplars found online**.”
+    - utilizing **a few seed exemplars found online**."
   - **Answer Description**: Same as query.
 - **[MMIQC](https://huggingface.co/datasets/Vivacem/MMIQC)/AugSimilar**
   - **# of Queries**: (unspecified)
   - **Query Description**:
-    - “In our practice, we find that GPT tends to generate several almost the same problems regardless of the given seed problem when asked to generate up to 10 new problems. Thus, we only **ask GPT to generate 3 problems (with a solution, for rejection sampling)** each time”.
+    - "In our practice, we find that GPT tends to generate several almost the same problems regardless of the given seed problem when asked to generate up to 10 new problems. Thus, we only **ask GPT to generate 3 problems (with a solution, for rejection sampling)** each time".
     - Considering rejection sampling needs the answer to the problem better to be correct, we use the stronger **GPT-4(-1106)** instead of GPT-3.5.
     - To control the cost, **our prompt emphasizes that the solution should be as brief as possible**.
-    - “We use a **temperature $T = 1.0$** for both procedures.”
+    - "We use a **temperature $T = 1.0$** for both procedures."
   - **Answer Description**: Same as query.
 - **[MMIQC](https://huggingface.co/datasets/Vivacem/MMIQC)/IQC**
   - **# of Queries**: (unspecified)
   - **Query Description**:
-    - “Our approach, termed **IQC (Iterative Question Composing)**, deviates from this by iteratively constructing more complex problems. It **augments the initial problems, adding additional reasoning steps without altering their intrinsic logical structure.**”
-    - “We perform Iterative Question Composing for **4 iterations**”.
-    - “We note that although **some of the questions are not rigorously a sub-problem or sub-step of the corresponding problem in the previous iteration as required in our prompt**, they are still valid questions that can increase the diversity of the dataset.”
-    - “Specifically, we use **GPT-4(-1106)** for question composing model $\pi_{q}$ with a **$T = 0.7$ temperature**.”
+    - "Our approach, termed **IQC (Iterative Question Composing)**, deviates from this by iteratively constructing more complex problems. It **augments the initial problems, adding additional reasoning steps without altering their intrinsic logical structure.**"
+    - "We perform Iterative Question Composing for **4 iterations**".
+    - "We note that although **some of the questions are not rigorously a sub-problem or sub-step of the corresponding problem in the previous iteration as required in our prompt**, they are still valid questions that can increase the diversity of the dataset."
+    - "Specifically, we use **GPT-4(-1106)** for question composing model $\pi_{q}$ with a **$T = 0.7$ temperature**."
   - **Answer Description**: Same as query.
 - **[MMIQC](https://huggingface.co/datasets/Vivacem/MMIQC)/MathStackExchange**
   - **# of Queries**: 1,203,620
   - **Query Description**:
-    - “we extract the data collected from **Mathematics Stack Exchange in RedPajama (Computer, 2023)** and pre-process it into question-response pairs.
+    - "we extract the data collected from **Mathematics Stack Exchange in RedPajama (Computer, 2023)** and pre-process it into question-response pairs.
     - For each Mathematics Stack Exchange page, we only retain the **answer ranked first by RedPajama**.
-    - Then we **filter out the answer that does not contain a formula environment symbol ‘$’**.”
+    - Then we **filter out the answer that does not contain a formula environment symbol ‘$’**."
   - **Answer Description**: **No** short final answers.
 - **[MWPBench](https://github.com/microsoft/unilm/tree/master/mathscale/MWPBench)/CollegeMath/Train**
   - **# of Queries**: 1,281
   - **Query Description**:
-    - “We curated a collection of **nine college mathematics textbooks**, each addressing a distinct topic.
+    - "We curated a collection of **nine college mathematics textbooks**, each addressing a distinct topic.
     - These textbooks encompass **seven** critical mathematical disciplines: **algebra, pre-calculus, calculus, vector calculus, probability, linear algebra, and differential equations**.
-    - These textbooks are originally in PDF format and we convert them to text format using the **MathPix** API, where equations are transformed to LaTeX format. Once converted a textbook to text format, we are ready to extract exercises and their solutions. For each book, we **first manually segment the book into chapter and identify pages with exercises and their solutions**. Then we extract questions in exercises and their associated short answers.”
+    - These textbooks are originally in PDF format and we convert them to text format using the **MathPix** API, where equations are transformed to LaTeX format. Once converted a textbook to text format, we are ready to extract exercises and their solutions. For each book, we **first manually segment the book into chapter and identify pages with exercises and their solutions**. Then we extract questions in exercises and their associated short answers."
   - **Answer Description**: Same as query.
 - **[AOPS](https://github.com/hkust-nlp/dart-math/blob/main/data/dsets/aops.jsonl)**
   - **# of Queries**: 3,886
@@ -136,18 +136,18 @@ The following list mainly focuses (training) datasets for **complex mathematical
 - **[WebInstruct(Sub)](https://tiger-ai-lab.github.io/MAmmoTH2/)**
   - **# of Queries**: ~10M(2,335,220)
   - **Query Description**:
-    - “In this paper, we aim to **mine these instruction-response pairs from the web** using a three-step pipeline.
+    - "In this paper, we aim to **mine these instruction-response pairs from the web** using a three-step pipeline.
       1) **Recall** step: We create a diverse seed dataset by crawling several quiz websites. We use this seed data to train a **fastText** model (Joulin et al., 2016) and employ it to recall documents from **Common Crawl** (Computer, 2023). GPT-4 is used to trim down the recalled documents by their root URL. We obtain 18M documents through this step.
       2) **Extract** step: We utilize open-source LLMs like **Qwen-72B** (Bai et al., 2023) to extract Q-A pairs from these documents, producing roughly 5M candidate Q-A pairs.
-      3) **Refine** step: After extraction, we further employ **Mixtral-8×22B** (Jiang et al., 2024) and **Qwen-72B** (Bai et al., 2023) to refine (Zheng et al., 2024b) these candidate Q-A pairs. This refinement operation aims to **remove unrelated content, fix formality, and add missing explanations to the candidate Q-A pairs**. Eventually, we harvest a total of 10M instruction-response pairs through these steps.”
-    - “The pie chart reveals that WebInstruct is predominantly composed of science-related subjects, with **81.69%** of the data falling under the broad **"Science"** category.
+      3) **Refine** step: After extraction, we further employ **Mixtral-8×22B** (Jiang et al., 2024) and **Qwen-72B** (Bai et al., 2023) to refine (Zheng et al., 2024b) these candidate Q-A pairs. This refinement operation aims to **remove unrelated content, fix formality, and add missing explanations to the candidate Q-A pairs**. Eventually, we harvest a total of 10M instruction-response pairs through these steps."
+    - "The pie chart reveals that WebInstruct is predominantly composed of science-related subjects, with **81.69%** of the data falling under the broad **"Science"** category.
       - Within this category, **Mathematics** takes up **the largest share at 68.36%**,
       - followed by **Physics, Chemistry, and Biology**.
-    - The remaining **non-science categories, such as Business, Art & Design, and Health & Medicine**, contribute to the diversity of the dataset.”
-    - “In terms of **data sources**, the **vast majority (86.73%)** of the instruction-response pairs come from **exam-style questions**, while **forum discussions** make up the remaining **13.27%**.”
-    - “To quantify the error percentages, we randomly sample 50 refined QA examples and ask the human annotators to compare whether the refined examples are correct and significantly better than the extracted ones in terms of format and intermediate solutions.
+    - The remaining **non-science categories, such as Business, Art & Design, and Health & Medicine**, contribute to the diversity of the dataset."
+    - "In terms of **data sources**, the **vast majority (86.73%)** of the instruction-response pairs come from **exam-style questions**, while **forum discussions** make up the remaining **13.27%**."
+    - "To quantify the error percentages, we randomly sample 50 refined QA examples and ask the human annotators to compare whether the refined examples are correct and significantly better than the extracted ones in terms of format and intermediate solutions.
       - As we can see from Figure 6, **78%** examples have been **improved** after refinement
-      - and **only 10%** examples introduce **hallucinations** after refinement..”
+      - and **only 10%** examples introduce **hallucinations** after refinement."
   - **Answer Description**: Same as query.
 
 ## Continual Pre-Training: Methods / Models / Corpora

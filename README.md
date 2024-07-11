@@ -20,7 +20,7 @@ The following resources are listed in **(roughly) chronological order of publica
 - **Follow** the [**Zhihu(知乎) account** @天欲雪](https://www.zhihu.com/people/bai-li-tian-he-84),
 - **Watch releases in this GitHub repository**: upper right corner→Watch->Custom->Releases.
 
-📢 If you have any **suggestions**, please don't hesitate to let us know. You can
+📢 If you have any **suggestions**, please don't hesitate to
 
 - **reply** to the [**X(Twitter)** thread](https://twitter.com/tongyx361/status/1780980512561185062),
 - post an **issue** in the [**GitHub** repository](https://github.com/tongyx361/Awesome-LLM4Math),

@@ -12,6 +12,12 @@ Featured by:
 - Probably the **most comprehensive** list of **training prompt&answer datasets** for complex mathematical QA tasks across the web
 - Lists of the series of work implementing the current **open-source SotA** for mathematical problem-solving tasks
 
+You can **subscribe to our updates** in the following ways:
+
+- **Follow** the [**X (Twitter) account** @tongyx361](https://x.com/tongyx361),
+- **Follow** the [**Zhihu(知乎)** account @天欲雪](https://www.zhihu.com/people/bai-li-tian-he-84),
+- **Watch releases in this GitHub repository**: upper right corner→Watch->Custom->Releases.
+
 The following resources are listed in **(roughly) chronological order of publication**.
 
 ## (Training) Datasets

@@ -5,7 +5,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/tongyx361/Awesome-LLM4Math)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-[🐱 GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | [🐦 Twitter](https://twitter.com/tongyx361/status/1780980512561185062) | [🐶 Zhihu(知乎)](https://zhuanlan.zhihu.com/p/708332143)
+🐱 [GitHub](https://github.com/tongyx361/Awesome-LLM4Math) | 🐦 [X(Twitter)](https://twitter.com/tongyx361/status/1780980512561185062) | 🐶 [Zhihu(知乎)](https://zhuanlan.zhihu.com/p/708332143)
 
 ✨ Featured by:
 

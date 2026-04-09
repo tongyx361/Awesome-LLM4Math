@@ -205,6 +205,10 @@ The following list mainly focuses (training) datasets for **complex mathematical
 
 - [*DUP*](https://arxiv.org/abs/2404.14963): Prompting the model with three-stage *Deeply Understand the Problem* prompts, which comprises **1) core question extraction 2) problem-solving information extraction and 3) *CoT* reasoning**, improving more than *Plan-and-Solve* and *Least-to-Most* prompting on simple arithmetic, commonsense and symbolic reasoning tasks.
 
+## Tools: Verified Computation
+
+- [**Math Swarm**](https://github.com/michaelwinczuk/math-swarm): A **deterministic computation engine** that replaces LLM token prediction with **SymPy symbolic math** for zero-hallucination results. 6-agent pipeline (Parser → Classifier → Planner → Compute → Verify → Explain). **1,079 tests across 12 categories at 100% accuracy.** Benchmarked against Qwen2.5 models: 3B achieves 55%, 7B achieves 77%, 32B achieves 93% — Math Swarm achieves **100% at 1.9ms and $0 cost**. Includes 15 healthcare clinical formulas with guideline-based decision support. Key insight: a 3B model + Math Swarm outperforms a 32B model alone on all tested mathematical tasks.
+
 ## Evaluation: Benchmarks
 
 Here we focus on **several the most important benchmarks**.
